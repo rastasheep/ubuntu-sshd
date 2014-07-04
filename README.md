@@ -2,7 +2,7 @@
 
 Dockerized SSH service, built on top of [official Ubuntu](https://registry.hub.docker.com/_/ubuntu/) images.
 
-## Tags
+## Image tags
 
 - rastasheep/ubuntu-sshd:12.04 (precise)
 - rastasheep/ubuntu-sshd:12.10 (quantal)
@@ -13,25 +13,28 @@ Dockerized SSH service, built on top of [official Ubuntu](https://registry.hub.d
 ## Installed packages
 
 Base:
+
 - [precise (12.04) minimal](http://packages.ubuntu.com/precise/ubuntu-minimal)
-- quantal (12.10) minimal
+- [quantal (12.10) minimal](http://packages.ubuntu.com/quantal/ubuntu-minimal)
 - [raring (13.04) minimal](http://packages.ubuntu.com/raring/ubuntu-minimal)
 - [saucy (13.10) minimal](http://packages.ubuntu.com/saucy/ubuntu-minimal)
 - [trusty (14.04) minimal](http://packages.ubuntu.com/trusty/ubuntu-minimal)
 
-Ubuntu-sshd specific:
+Image specific:
 - [openssh-server](https://help.ubuntu.com/community/SSH/OpenSSH/Configuring)
+
 Config:
-  `PermitRootLogin yes`
-  `UsePAM no`
-  exposed port 22
-  default command: `/usr/sbin/sshd -D`
-  root password: `root`
+
+  - `PermitRootLogin yes`
+  - `UsePAM no`
+  - exposed port 22
+  - default command: `/usr/sbin/sshd -D`
+  - root password: `root`
 
 ## Run example
 
 ```bash
-$ sudo docker run -d -P --name test_sshd ratasheep/ubuntu-sshd:14.04
+$ sudo docker run -d -P --name test_sshd rastasheep/ubuntu-sshd:14.04
 $ sudo docker port test_sshd 22
   0.0.0.0:49154
 
@@ -42,5 +45,5 @@ root@test_sshd $
 
 ## Issues
 
-If you run into any problems with this image, please check (and potentially file new) issues on the [ratasheep/ubuntu-sshd](https://github.com/rastasheep/ubuntu-sshd/issues) repo, which is the source for this image.
+If you run into any problems with this image, please check (and potentially file new) issues on the [rastasheep/ubuntu-sshd](https://github.com/rastasheep/ubuntu-sshd/issues) repo, which is the source for this image.
 
