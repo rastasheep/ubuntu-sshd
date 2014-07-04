@@ -1,5 +1,5 @@
-FROM       ubuntu:14.04
-MAINTAINER Aleksandar Diklic "aleksandar@renderedtext.com"
+FROM       ubuntu:%VERSION%
+MAINTAINER Aleksandar Diklic "https://github.com/rastasheep"
 
 RUN apt-get update
 
