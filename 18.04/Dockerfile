@@ -1,4 +1,4 @@
-FROM       ubuntu:13.04
+FROM       ubuntu:18.04
 MAINTAINER Aleksandar Diklic "https://github.com/rastasheep"
 
 RUN apt-get update

@@ -4,23 +4,14 @@ Dockerized SSH service, built on top of [official Ubuntu](https://registry.hub.d
 
 ## Image tags
 
-- rastasheep/ubuntu-sshd:12.04 (precise)
-- rastasheep/ubuntu-sshd:12.10 (quantal)
-- rastasheep/ubuntu-sshd:13.04 (raring)
-- rastasheep/ubuntu-sshd:13.10 (saucy)
-- rastasheep/ubuntu-sshd:14.04 (trusty)
-- rastasheep/ubuntu-sshd:16.04 (xenial)
+- sagudev/ubuntu-sshd:14.04 (trusty)
+- sagudev/ubuntu-sshd:16.04 (xenial, latest)
+- sagudev/ubuntu-sshd:17.10 (artful)
+- sagudev/ubuntu-sshd:18.04 (bionic, dev)
+
+
 
 ## Installed packages
-
-Base:
-
-- [precise (12.04) minimal](http://packages.ubuntu.com/precise/ubuntu-minimal)
-- [quantal (12.10) minimal](http://packages.ubuntu.com/quantal/ubuntu-minimal)
-- [raring (13.04) minimal](http://packages.ubuntu.com/raring/ubuntu-minimal)
-- [saucy (13.10) minimal](http://packages.ubuntu.com/saucy/ubuntu-minimal)
-- [trusty (14.04) minimal](http://packages.ubuntu.com/trusty/ubuntu-minimal)
-- [Xenial (16.04) minimal](http://packages.ubuntu.com/xenial/ubuntu-minimal)
 
 Image specific:
 - [openssh-server](https://help.ubuntu.com/community/SSH/OpenSSH/Configuring)
