@@ -5,9 +5,9 @@ Dockerized SSH service, built on top of [official Ubuntu](https://registry.hub.d
 ## Image tags
 
 - sagudev/ubuntu-sshd:14.04 (trusty)
-- sagudev/ubuntu-sshd:16.04 (xenial)
+- sagudev/ubuntu-sshd:16.04 (xenial, latest)
 - sagudev/ubuntu-sshd:17.10 (artful)
-- sagudev/ubuntu-sshd:18.04 (bionic)
+- sagudev/ubuntu-sshd:18.04 (bionic, dev)
 
 
 
