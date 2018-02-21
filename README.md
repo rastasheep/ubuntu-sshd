@@ -4,12 +4,10 @@ Dockerized SSH service, built on top of [official Ubuntu](https://registry.hub.d
 
 ## Image tags
 
-- rastasheep/ubuntu-sshd:12.04 (precise)
-- rastasheep/ubuntu-sshd:12.10 (quantal)
-- rastasheep/ubuntu-sshd:13.04 (raring)
-- rastasheep/ubuntu-sshd:13.10 (saucy)
 - rastasheep/ubuntu-sshd:14.04 (trusty)
-- rastasheep/ubuntu-sshd:16.04 (xenial)
+- rastasheep/ubuntu-sshd:16.04 (xenial, latest)
+- rastasheep/ubuntu-sshd:17.10 (artful)
+- rastasheep/ubuntu-sshd:18.04 (bionic, dev)
 
 ## Installed packages
 

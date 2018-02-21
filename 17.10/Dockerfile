@@ -1,4 +1,4 @@
-FROM       ubuntu:12.04
+FROM       ubuntu:17.10
 MAINTAINER Aleksandar Diklic "https://github.com/rastasheep"
 
 RUN apt-get update
