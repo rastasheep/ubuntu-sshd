@@ -10,6 +10,7 @@ Dockerized SSH service, built on top of [official Ubuntu](https://registry.hub.d
 - rastasheep/ubuntu-sshd:13.10 (saucy)
 - rastasheep/ubuntu-sshd:14.04 (trusty)
 - rastasheep/ubuntu-sshd:16.04 (xenial)
+- rastasheep/ubuntu-sshd:18.04 (bionic)
 
 ## Installed packages
 
@@ -21,6 +22,7 @@ Base:
 - [saucy (13.10) minimal](http://packages.ubuntu.com/saucy/ubuntu-minimal)
 - [trusty (14.04) minimal](http://packages.ubuntu.com/trusty/ubuntu-minimal)
 - [Xenial (16.04) minimal](http://packages.ubuntu.com/xenial/ubuntu-minimal)
+- [Bionic (18.04) minimal](http://packages.ubuntu.com/bionic/ubuntu-minimal)
 
 Image specific:
 - [openssh-server](https://help.ubuntu.com/community/SSH/OpenSSH/Configuring)
@@ -48,4 +50,3 @@ root@test_sshd $
 ## Issues
 
 If you run into any problems with this image, please check (and potentially file new) issues on the [rastasheep/ubuntu-sshd](https://github.com/rastasheep/ubuntu-sshd/issues) repo, which is the source for this image.
-
