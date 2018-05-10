@@ -56,7 +56,7 @@ You can do one of the following two things after launching the container:
 - Don't allow passwords at all, use keys instead:
 
 ```bash
-$ docker exec -ti test_sshd passwd -d root
+$ docker exec test_sshd passwd -d root
 $ docker cp file_on_host_with_allowed_public_keys test_sshd:/root/.ssh/authorized_keys
 ```
 
