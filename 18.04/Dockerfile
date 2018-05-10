@@ -14,6 +14,8 @@ RUN sed -ri 's/UsePAM yes/#UsePAM yes/g' /etc/ssh/sshd_config
 RUN apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
+RUN mkdir /root/.ssh
+
 EXPOSE 22
 
 CMD    ["/usr/sbin/sshd", "-D"]

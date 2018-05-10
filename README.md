@@ -58,6 +58,7 @@ You can do one of the following two things after launching the container:
 ```bash
 $ docker exec test_sshd passwd -d root
 $ docker cp file_on_host_with_allowed_public_keys test_sshd:/root/.ssh/authorized_keys
+$ docker exec test_sshd chown root:root /root/.ssh/authorized_keys
 ```
 
 ## Issues
